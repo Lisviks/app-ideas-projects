@@ -1,0 +1,117 @@
+:root {
+  --light-1: #f44336;
+  --light-2: #ff9800;
+  --light-3: #ffeb3b;
+  --light-4: #4caf50;
+  --light-5: #4fc3f7;
+  --light-6: #1976d2;
+  --light-7: #9c27b0;
+}
+
+* {
+  box-sizing: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #333;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+}
+
+.row {
+  text-align: center;
+  margin-top: 8rem;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.speed, .intensity {
+  width: 60px;
+}
+
+.lights {
+  display: flex;
+}
+
+.lights div {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 0 20px;
+}
+
+.light-1 {
+  background-color: var(--light-1);
+}
+
+.light-2 {
+  background-color: var(--light-2);
+}
+
+.light-3 {
+  background-color: var(--light-3);
+}
+
+.light-4 {
+  background-color: var(--light-4);
+}
+
+.light-5 {
+  background-color: var(--light-5);
+}
+
+.light-6 {
+  background-color: var(--light-6);
+}
+
+.light-7 {
+  background-color: var(--light-7);
+}
+
+/* .light-1.on {
+  box-shadow: 0 0 25px var(--light-1);
+}
+
+.light-2.on {
+  box-shadow: 0 0 25px var(--light-2);
+}
+
+.light-3.on {
+  box-shadow: 0 0 25px var(--light-3);
+}
+
+.light-4.on {
+  box-shadow: 0 0 25px var(--light-4);
+}
+
+.light-5.on {
+  box-shadow: 0 0 25px var(--light-5);
+}
+
+.light-6.on {
+  box-shadow: 0 0 25px var(--light-6);
+}
+
+.light-7.on {
+  box-shadow: 0 0 25px var(--light-7);
+} */
+
+.power-btn {
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 50%;
+  font-size: 10px;
+  margin-right: 2rem;
+}

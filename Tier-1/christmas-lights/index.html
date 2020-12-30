@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Christmas Lights</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="controls">
+          <form class="set-speed">
+            Speed: <input type="number" class="speed" id="speed" min="25" />
+            <button>Set</button>
+          </form>
+          <form class="set-intensity">
+            Intensity:
+            <input
+              type="number"
+              class="intensity"
+              id="intensity"
+              min="1"
+              max="10"
+            />
+            <button>Set</button>
+          </form>
+          <button class="power-btn">ON/OFF</button>
+        </div>
+        <div class="lights">
+          <div class="light light-1"></div>
+          <div class="light light-2"></div>
+          <div class="light light-3"></div>
+          <div class="light light-4"></div>
+          <div class="light light-5"></div>
+          <div class="light light-6"></div>
+          <div class="light light-7"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
