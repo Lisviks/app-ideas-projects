@@ -34,4 +34,4 @@ Image packages and libraries are not allowed.
 
 [Image Effects by @bennettfeely](https://codepen.io/seyedi/pen/gvqYQv)
 
-[IndexedDB](https://github.com/Lisviks/app-ideas-projects/tree/main/Tier-1/flip-image)
+[Flip Image](https://github.com/Lisviks/app-ideas-projects/tree/main/Tier-1/flip-image)
